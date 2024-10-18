@@ -24,9 +24,10 @@ function App() {
         console.log(e);
       });
   }, [city]);
+
   return (
-    <div className="bg-zinc-900 h-screen flex justify-center items-start">
-      <div className="w-1/5 h-1/3 mt-40">
+    <div className="bg-zinc-900 min-h-screen flex flex-col md:flex-row items-center justify-center p-4 md:p-10">
+      <div className="w-full md:w-2/5 lg:w-1/5 mt-10">
         {weatherData && (
           <Temperature
             setCity={setCity}
@@ -40,8 +41,8 @@ function App() {
           />
         )}
       </div>
-      <div className="w-1/3 h-1/3 mt-40 p-10 grid grid-cols-2 gap-6">
-        <h1 className="text-slate-200 text-2xl col-span-2">
+      <div className="w-full md:w-3/5 lg:w-1/3 mt-10 p-4 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <h1 className="text-slate-200 text-2xl col-span-1 md:col-span-2">
           Other Details
         </h1>
         {weatherData && (
