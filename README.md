@@ -17,7 +17,7 @@ This is a simple weather application built using **React.js** and **Tailwind CSS
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone [https://github.com/yourusername/weather-app.git](https://github.com/Linchpin22/ReactWeather)
    cd weather-app
    ```
 2. Install dependencies:
