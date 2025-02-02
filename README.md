@@ -38,7 +38,7 @@ This is a simple weather application built using **React.js** and **Tailwind CSS
 4. Deploy the site!
 
 ## Live Demo
-You can check out the live app here: [Your Netlify URL](https://your-netlify-url.netlify.app/)
+You can check out the live app here: [Your Netlify URL](https://weatherlinchpin22.netlify.app/)
 
 ## Credits
 - [OpenWeatherMap](https://openweathermap.org/) for providing the API
